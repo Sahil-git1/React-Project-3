@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&display=swap');
+
+*{
+    font-family:Inter;
+    font-weight: 500;
+}
+nav{
+    display: flex;
+    gap:0.5rem;
+    justify-content: center;
+    background-color: #F55A5A;
+    align-items: center;
+    color: white;
+    margin-bottom: 1.3rem;
+}
+
+
+@media (max-width: 768px) { /* Target devices with width <= 768px */
+    main > div {
+      flex-direction: column; /* Change to column on mobile */
+    }
+  }
+details{
+    border: 2px solid rgba(110, 73, 73, 0.042);
+    margin: 0 5vw 1vh 5vw;
+}
+.setUp{
+  margin: 2em 4rem 0 4em;
+}  
+.punchline{
+    margin: 2em 4rem 1rem 4rem;
+    font-size:larger;
+}
+summary::marker{
+    color: #F55A5A;
+    
+}
+#info{
+  margin-left: 4em;
+}
+span{
+font-weight: 700;
+}
+section::first-letter{
+  text-transform: capitalize;
+}
